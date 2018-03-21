@@ -1,12 +1,11 @@
-//use strict;
+var urlDatabase = {
+  "b2xVn2": "http://www.lighthouselabs.ca",
+  "9sm5xK": "http://www.google.com"
+};
+urlDatabase["9sm5xK"] = "abc.com"
 
-function foo( x ) {
-  let y;
+console.log(urlDatabase)
 
-  if (x === 1) {
-    y = 2;
-  }
-  console.log( y );
-}
 
-foo( 1 );
+		// urls that wants to delete:<br>
+		// <input type="text" name="id"> <br>
